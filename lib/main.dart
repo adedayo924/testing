@@ -58,6 +58,14 @@ class MyTestApp extends StatelessWidget {
                         letterSpacing: 2),
                   ),
                   const SizedBox(
+                    width: 150,
+                    child: Divider(
+                      height: 20,
+                      color: Colors.white70,
+                      thickness: 1,
+                    ),
+                  ),
+                  const SizedBox(
                     height: 3,
                   ),
                   Card(
