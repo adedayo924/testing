@@ -15,7 +15,7 @@ class MyTestApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.green.shade900,
           appBar: AppBar(
-            backgroundColor: Colors.green,
+            backgroundColor: const Color.fromARGB(255, 36, 128, 39),
             leading: const Icon(Icons.menu_rounded),
             title: const Text(
               'My Portfolio App',
