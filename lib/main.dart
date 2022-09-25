@@ -71,25 +71,19 @@ class MyTestApp extends StatelessWidget {
                   Card(
                     margin: const EdgeInsets.symmetric(
                         vertical: 10, horizontal: 20),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Icon(
-                            Icons.email_rounded,
-                            color: Colors.green.shade900,
-                          ),
-                          const SizedBox(
-                            width: 10,
-                          ),
-                          const Text(
-                            'adedayo924@gmail.com',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontFamily: 'Dash',
-                                color: Colors.black87),
-                          ),
-                        ],
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.email_rounded,
+                        color: Colors.green.shade900,
+                      ),
+                      title: const Text(
+                        'adedayo924@gmail.com',
+                        style: TextStyle(
+                          fontFamily: 'Dash',
+                          fontWeight: FontWeight.bold,
+                          fontSize: 12,
+                          color: Color.fromARGB(255, 25, 109, 28),
+                        ),
                       ),
                     ),
                   ),
@@ -99,25 +93,19 @@ class MyTestApp extends StatelessWidget {
                   Card(
                     margin: const EdgeInsets.symmetric(
                         vertical: 10, horizontal: 20),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Icon(
-                            Icons.phone_rounded,
-                            color: Colors.green.shade900,
-                          ),
-                          const SizedBox(
-                            width: 10,
-                          ),
-                          const Text(
-                            '+23414700417',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontFamily: 'Dash',
-                                color: Colors.black87),
-                          )
-                        ],
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.phone_rounded,
+                        color: Colors.green.shade900,
+                      ),
+                      title: const Text(
+                        '+23414700417',
+                        style: TextStyle(
+                          fontFamily: 'Dash',
+                          fontWeight: FontWeight.bold,
+                          fontSize: 12,
+                          color: Color.fromARGB(255, 25, 109, 28),
+                        ),
                       ),
                     ),
                   ),
